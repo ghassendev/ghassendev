@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Ghassen Gharsseloui — Laravel / PHP backend developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="0.55" stop-color="#121a33"/>
+      <stop offset="1" stop-color="#1b1036"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff5f6d"/>
+      <stop offset="0.5" stop-color="#ffc371"/>
+      <stop offset="1" stop-color="#ff5f6d"/>
+      <animate attributeName="x1" values="0;-1;0" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;0;1" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="orbA"><stop offset="0" stop-color="#ff2d55" stop-opacity=".55"/><stop offset="1" stop-color="#ff2d55" stop-opacity="0"/></radialGradient>
+    <radialGradient id="orbB"><stop offset="0" stop-color="#5b8cff" stop-opacity=".5"/><stop offset="1" stop-color="#5b8cff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="orbC"><stop offset="0" stop-color="#a855f7" stop-opacity=".45"/><stop offset="1" stop-color="#a855f7" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".04"/>
+    </pattern>
+    <clipPath id="card"><rect width="1200" height="320" rx="22"/></clipPath>
+    <style>
+      .glyph{font:600 22px 'JetBrains Mono','Fira Code',Consolas,monospace;fill:#8ea2ff;opacity:0}
+      .g1{animation:rise 9s linear infinite}
+      .g2{animation:rise 11s linear 2s infinite}
+      .g3{animation:rise 10s linear 4s infinite}
+      .g4{animation:rise 12s linear 1s infinite}
+      .g5{animation:rise 9.5s linear 6s infinite}
+      .g6{animation:rise 13s linear 3s infinite}
+      @keyframes rise{0%{transform:translateY(40px);opacity:0}15%{opacity:.22}85%{opacity:.22}100%{transform:translateY(-260px);opacity:0}}
+      .hi{font:500 22px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#9aa7c7;animation:fade 1s ease-out both}
+      .nm{font:800 64px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:url(#name);animation:fade 1.2s ease-out .2s both}
+      @keyframes fade{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+      .type{font:500 26px 'JetBrains Mono','Fira Code',Consolas,monospace;fill:#e6edf3}
+      .cursor{fill:#ff5f6d;animation:blink 1s steps(1) infinite}
+      @keyframes blink{50%{opacity:0}}
+      .chip rect{fill:#ffffff;fill-opacity:.06;stroke:#ffffff;stroke-opacity:.12}
+      .chip text{font:600 15px 'Segoe UI',Ubuntu,Arial,sans-serif;fill:#c9d4f2}
+      .chip{opacity:0;animation:fade .8s ease-out both}
+      .c1{animation-delay:.9s}.c2{animation-delay:1.05s}.c3{animation-delay:1.2s}.c4{animation-delay:1.35s}.c5{animation-delay:1.5s}
+      .term rect.win{fill:#0d1117;fill-opacity:.85;stroke:#30363d}
+      .term text{font:500 14px 'JetBrains Mono',Consolas,monospace}
+      .l{opacity:0;animation:fade .5s ease-out both}
+      .l1{animation-delay:1.6s}.l2{animation-delay:2.4s}.l3{animation-delay:3.2s}.l4{animation-delay:4s}.l5{animation-delay:4.8s}.l6{animation-delay:5.6s}
+      .ok{fill:#3fb950}.dim{fill:#8b949e}.cmd{fill:#e6edf3}.acc{fill:#ffc371}
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#grid)"/>
+    <circle cx="140" cy="60" r="220" fill="url(#orbA)">
+      <animate attributeName="cx" values="140;220;140" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="60;110;60" dur="14s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1050" cy="280" r="260" fill="url(#orbB)">
+      <animate attributeName="cx" values="1050;960;1050" dur="16s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="700" cy="-40" r="200" fill="url(#orbC)">
+      <animate attributeName="cy" values="-40;30;-40" dur="12s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- floating code glyphs -->
+    <text class="glyph g1" x="560" y="330">&lt;?php</text>
+    <text class="glyph g2" x="640" y="330">-&gt;dispatch()</text>
+    <text class="glyph g3" x="470" y="330">{ }</text>
+    <text class="glyph g4" x="760" y="330">queue:work</text>
+    <text class="glyph g5" x="600" y="330">=&gt;</text>
+    <text class="glyph g6" x="520" y="330">200 OK</text>
+
+    <!-- left: identity -->
+    <text class="hi" x="60" y="78">Hi there, I'm</text>
+    <text class="nm" x="56" y="146">Ghassen Gharsseloui</text>
+
+    <g transform="translate(60,192)">
+      <clipPath id="tc"><rect x="0" y="-28" width="0" height="40"><animate attributeName="width" values="0;560;560;0" keyTimes="0;.45;.8;1" dur="4s" repeatCount="indefinite"/></rect></clipPath>
+      <g clip-path="url(#tc)">
+        <text class="type" x="0" y="0" opacity="1"><animate attributeName="opacity" values="1;0;0;0" keyTimes="0;.25;.5;.75" calcMode="discrete" dur="16s" repeatCount="indefinite"/>&gt; Laravel / PHP backend developer</text>
+        <text class="type" x="0" y="0" opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.25;.5;.75" calcMode="discrete" dur="16s" repeatCount="indefinite"/>&gt; Payment gateway integrations</text>
+        <text class="type" x="0" y="0" opacity="0"><animate attributeName="opacity" values="0;0;1;0" keyTimes="0;.25;.5;.75" calcMode="discrete" dur="16s" repeatCount="indefinite"/>&gt; Redis queues &amp; background jobs</text>
+        <text class="type" x="0" y="0" opacity="0"><animate attributeName="opacity" values="0;0;0;1" keyTimes="0;.25;.5;.75" calcMode="discrete" dur="16s" repeatCount="indefinite"/>&gt; AWS &amp; Linux deployments</text>
+      </g>
+      <rect class="cursor" x="0" y="-22" width="3" height="28">
+        <animate attributeName="x" values="0;560;560;0" keyTimes="0;.45;.8;1" dur="4s" calcMode="discrete" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <g transform="translate(60,236)">
+      <g class="chip c1"><rect width="92" height="34" rx="17"/><text x="46" y="22" text-anchor="middle">Laravel</text></g>
+      <g transform="translate(104,0)"><g class="chip c2"><rect width="74" height="34" rx="17"/><text x="37" y="22" text-anchor="middle">PHP 8</text></g></g>
+      <g transform="translate(190,0)"><g class="chip c3"><rect width="84" height="34" rx="17"/><text x="42" y="22" text-anchor="middle">Python</text></g></g>
+      <g transform="translate(286,0)"><g class="chip c4"><rect width="76" height="34" rx="17"/><text x="38" y="22" text-anchor="middle">Redis</text></g></g>
+      <g transform="translate(374,0)"><g class="chip c5"><rect width="66" height="34" rx="17"/><text x="33" y="22" text-anchor="middle">AWS</text></g></g>
+    </g>
+
+    <!-- right: terminal -->
+    <g class="term" transform="translate(800,40)">
+      <rect class="win" width="350" height="240" rx="12"/>
+      <circle cx="20" cy="18" r="6" fill="#ff5f57"/><circle cx="40" cy="18" r="6" fill="#febc2e"/><circle cx="60" cy="18" r="6" fill="#28c840"/>
+      <text x="175" y="22" text-anchor="middle" class="dim" style="font-size:12px">ghassen@prod: ~</text>
+      <text class="l l1" x="18" y="62"><tspan class="acc">$</tspan><tspan class="cmd"> php artisan test</tspan></text>
+      <text class="l l2" x="18" y="86"><tspan class="ok">  ✓ </tspan><tspan class="dim">PaymentWebhookTest  </tspan><tspan class="ok">PASS</tspan></text>
+      <text class="l l3" x="18" y="110"><tspan class="ok">  ✓ </tspan><tspan class="dim">QueueRetryTest      </tspan><tspan class="ok">PASS</tspan></text>
+      <text class="l l4" x="18" y="142"><tspan class="acc">$</tspan><tspan class="cmd"> php artisan queue:work redis</tspan></text>
+      <text class="l l5" x="18" y="166"><tspan class="dim">  [12:04:11] </tspan><tspan class="ok">Processed </tspan><tspan class="cmd">SettleInvoice</tspan></text>
+      <text class="l l6" x="18" y="198"><tspan class="acc">$</tspan><tspan class="cmd"> deploy --env=production </tspan><tspan class="ok">✔</tspan></text>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="319" rx="22" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
+</svg>
