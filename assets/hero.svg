@@ -75,7 +75,7 @@
     <g transform="translate(60,192)">
       <clipPath id="tc"><rect x="0" y="-28" width="0" height="40"><animate attributeName="width" values="0;560;560;0" keyTimes="0;.45;.8;1" dur="4s" repeatCount="indefinite"/></rect></clipPath>
       <g clip-path="url(#tc)">
-        <text class="type" x="0" y="0" opacity="1"><animate attributeName="opacity" values="1;0;0;0" keyTimes="0;.25;.5;.75" calcMode="discrete" dur="16s" repeatCount="indefinite"/>&gt; Laravel / PHP backend developer</text>
+        <text class="type" x="0" y="0" opacity="1"><animate attributeName="opacity" values="1;0;0;0" keyTimes="0;.25;.5;.75" calcMode="discrete" dur="16s" repeatCount="indefinite"/>&gt; 5+ years of Laravel / PHP backends</text>
         <text class="type" x="0" y="0" opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.25;.5;.75" calcMode="discrete" dur="16s" repeatCount="indefinite"/>&gt; Payment gateway integrations</text>
         <text class="type" x="0" y="0" opacity="0"><animate attributeName="opacity" values="0;0;1;0" keyTimes="0;.25;.5;.75" calcMode="discrete" dur="16s" repeatCount="indefinite"/>&gt; Redis queues &amp; background jobs</text>
         <text class="type" x="0" y="0" opacity="0"><animate attributeName="opacity" values="0;0;0;1" keyTimes="0;.25;.5;.75" calcMode="discrete" dur="16s" repeatCount="indefinite"/>&gt; AWS &amp; Linux deployments</text>
